@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+.bt {
+	display: block;
+	float: right;
+	margin: 15px;
+	padding: 5px;
+	background: rgb(41, 128, 185);
+	color: white;
+	border-radius: 10px;
+	font-size: 12px;
+}
+
+.main {
+	display: block;
+	position: absolute;
+	top: 25%;
+	left: 40%;
+}
+
+.search {
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 25%;
+}
+
+#link {
+	display: block;
+	position: absolute;
+	top: 45%;
+	left: 40%;
+	padding : 5px;
+	margin : 5px;
+}
+
+#link ul li {
+display : inline-block; /* 새 줄로 넘어가지 않게 */
+list-style-type : none; /* 마커 삭제 */
+
+}
+
+
+input[type="text"] {
+	width: 600px;
+	height: 32px;
+	font-size: 15px;
+	border: 0;
+	border-radius: 15px;
+	outline: none;
+	padding-left: 10px;
+	background-color: rgb(233, 233, 233);
+	left: 20%;
+}
+
+input[type="button"] {
+	width: 100px;
+	height: 32px;
+	background-color: rgb(233, 233, 233);
+	border-radius: 10px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px;
+	cursor: pointer;
+}
+</style>
+<title>Poogle</title>
+</head>
+<body>
+	<div class="bt">로그인</div>
+	<div class="main">
+		<img class="main" src="images/poogle.JPG">
+	</div>
+	<div class='search'>
+		<form>
+			<input type="text" size="10" placeholder="빠르게 도움을 요청하세요!"><input
+				type="button" value="검색">
+		</form>
+	</div>
+	<div id="link">
+		<ul id="member">
+			<li><a href="#"><img src="images/note.PNG">도움요청</a></li>
+			<li><a href="#"><img src="images/cloud.PNG">자료실</a></li>
+			<li><a href="#"><img src="images/flag.PNG">명예의전당</a></li>
+		</ul>
+	</div>
+
+
+
+</body>
+</html>
